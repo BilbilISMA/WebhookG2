@@ -1,0 +1,15 @@
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/bin/Debug/net7.0/Webhook.Application.deps.json
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/bin/Debug/net7.0/Webhook.Application.dll
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/bin/Debug/net7.0/Webhook.Application.pdb
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/bin/Debug/net7.0/Webhook.Domain.dll
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/bin/Debug/net7.0/Webhook.Domain.pdb
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.csproj.AssemblyReference.cache
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.AssemblyInfoInputs.cache
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.AssemblyInfo.cs
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.csproj.CoreCompileInputs.cache
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.csproj.CopyComplete
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.dll
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/refint/Webhook.Application.dll
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/Webhook.Application.pdb
+/Users/bilbilisma/Desktop/WebhooksG2/Webhook.Application/obj/Debug/net7.0/ref/Webhook.Application.dll

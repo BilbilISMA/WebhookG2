@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Webhooks\" />
+    <None Remove="Webhooks\Commands\" />
+    <None Remove="Webhooks\Queries\" />
+    <None Remove="Common\" />
+    <None Remove="Common\Interfaces\" />
+    <None Remove="Common\Behaviours\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Webhooks\" />
+    <Folder Include="Webhooks\Commands\" />
+    <Folder Include="Webhooks\Queries\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Interfaces\" />
+    <Folder Include="Common\Behaviours\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Webhook.Domain\Webhook.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="FluentValidation" Version="11.8.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.8.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Newtonsoft.Json.Schema" Version="3.0.15" />
+  </ItemGroup>
+</Project>
