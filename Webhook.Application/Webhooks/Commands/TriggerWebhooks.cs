@@ -52,8 +52,12 @@ namespace Webhook.Application.Webhooks.Commands
         {
             try
             {
-                //Generate payload based on the configured Json Schema of the webhook            
-                var payload = GeneratePayload(jsonSchema, userDetails);
+                var payload = string.Empty;
+                //Generate payload based on the configured Json Schema of the webhook
+                if (method != HTTPMethod.GET && method != HTTPMethod.DELETE)
+                {
+                    payload = GeneratePayload(jsonSchema, userDetails);
+                }
 
                 var content = new StringContent(payload, Encoding.UTF8, "application/json");
                 //await client.PostAsync("https://webhook.site/41f849ba-eca5-45bd-94b6-321db96fb6b4", content); //Using hardcoded url for testing purposes 

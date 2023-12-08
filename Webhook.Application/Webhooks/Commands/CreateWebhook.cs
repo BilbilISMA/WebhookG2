@@ -13,7 +13,7 @@ namespace Webhook.Application.Webhooks.Commands
         [DefaultValue("https://webhook.site/41f849ba-eca5-45bd-94b6-321db96fb6b4")]
         public required string Url { get; set; }
         public required HTTPMethod HTTPMethod { get; set; }
-        public string? JsonSchema { get; set; } = @"
+        [DefaultValue(@"
         {
           ""type"": ""object"",
           ""properties"": {
@@ -22,7 +22,8 @@ namespace Webhook.Application.Webhooks.Commands
             ""Email"": { ""type"": ""string"" },
             ""DateOfBirth"": { ""type"": ""string"", ""format"": ""date-time"" }
           }
-        }";
+        }")]
+        public string? JsonSchema { get; set; }
 
         public string? Description { get; set; }
     }
